@@ -176,13 +176,11 @@ Event Viewer helps identify issues by monitoring logs related to:
 - Ensure the joining systems are on the same network or connected via VPN. 
 
 - Set DNS to domain controller IP (e.g., 192.168.1.10). 
-
-![1.1](1.1.png)
+  ![1.1](1.1.png)
 
 
 - Test with: `ping csn.local` 
-
-![1.2](1.2.png)
+  ![1.2](1.2.png)
  
 
 ### Step 2: Join Computer to Domain 
@@ -198,8 +196,7 @@ Event Viewer helps identify issues by monitoring logs related to:
 - Provide domain admin credentials 
 
 - Restart the computer when prompted 
-
-![2](2.png)
+  ![2](2.png)
    
  
 
@@ -221,8 +218,8 @@ Event Viewer helps identify issues by monitoring logs related to:
 
   - OU: IT Support 
 
-  - OU: Staff 
-![3](3.png)
+  - OU: Staff
+  ![3](3.png)
  
 
 ### Step 4: Add Users to Domain and Assign to OUs 
