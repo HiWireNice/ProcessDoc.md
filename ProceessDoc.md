@@ -177,8 +177,12 @@ Event Viewer helps identify issues by monitoring logs related to:
 
 - Set DNS to domain controller IP (e.g., 192.168.1.10). 
 
+![6 step 1.1](6 step 1.1.png)
+
+
 - Test with: `ping csn.local` 
 
+![6 step 1.2](6 step 1.2.png)
  
 
 ### Step 2: Join Computer to Domain 
@@ -195,8 +199,8 @@ Event Viewer helps identify issues by monitoring logs related to:
 
 - Restart the computer when prompted 
 
+![6 step 2](6 step 2.png)
    
-
  
 
  
