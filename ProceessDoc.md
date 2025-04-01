@@ -177,12 +177,12 @@ Event Viewer helps identify issues by monitoring logs related to:
 
 - Set DNS to domain controller IP (e.g., 192.168.1.10). 
 
-![6 step 1.1](6 step 1.1.png)
+![1.1](1.1.png)
 
 
 - Test with: `ping csn.local` 
 
-![6 step 1.2](6 step 1.2.png)
+![1.2](1.2.png)
  
 
 ### Step 2: Join Computer to Domain 
@@ -199,7 +199,7 @@ Event Viewer helps identify issues by monitoring logs related to:
 
 - Restart the computer when prompted 
 
-![6 step 2](6 step 2.png)
+![2](2.png)
    
  
 
@@ -222,7 +222,7 @@ Event Viewer helps identify issues by monitoring logs related to:
   - OU: IT Support 
 
   - OU: Staff 
-
+![3](3.png)
  
 
 ### Step 4: Add Users to Domain and Assign to OUs 
@@ -230,7 +230,7 @@ Event Viewer helps identify issues by monitoring logs related to:
  
 
 - Inside each OU > Right-click > New > User   
-
+![4](4.png)
 - Enter details: 
 
   - First/Last Name 
@@ -256,7 +256,7 @@ Event Viewer helps identify issues by monitoring logs related to:
 - Open **GPMC** 
 
 - Right-click each OU > Create a GPO (e.g., GPO\_Management) 
-
+![5.1](5.1.png)
 - Edit each GPO to include: 
 
   - Password complexity 
@@ -266,7 +266,7 @@ Event Viewer helps identify issues by monitoring logs related to:
   - User rights assignments 
 
   - Drive mappings/login scripts (optional)   
-
+![5.2](5.2.png)
 - Link each GPO to its respective OU 
 
 - Run `gpupdate /force` on clients or wait for refresh 
